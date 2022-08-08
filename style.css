@@ -1,0 +1,156 @@
+html{
+    font-size:62.5%
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:1.6rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    display:flex;
+}
+#logo{
+    width:30%;
+}
+nav img{
+    opacity:0.5;
+}
+.right-links{
+    display:flex;
+    width:15%;
+    justify-content: space-around;
+}
+#top{
+    background-color:#4361ee;
+    color:#fafafa;
+    position:relative;
+}
+.header{
+    position:relative;
+    z-index:2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    align-items: center;
+   
+}
+.header-1{
+    margin-top:10%;
+}
+.header-1 h1{
+    font-size:4.5rem;
+    width:90%;
+    
+}
+.header-1 button{
+    padding:2% 4%;
+    color:#1a4fd6;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:700;
+    cursor:pointer;
+    background-color: white;
+    outline:none;
+    border:none;
+}
+.header-1 button:hover{
+    background-color: #5774be;
+    color:white;
+
+}
+.header-2{
+    display:flex;
+    flex-direction:column; 
+    background-color: #ffffff;
+    padding:3% 20% 3% 3%;
+    position:relative;
+    top:100px;
+    
+}
+.header-2 input{
+    margin-bottom:10%;
+    width:100%;
+    padding:9% 40%;
+    border-radius: 5px;
+    border-color:#e9ecef;
+    border-width:1px;
+    outline:none;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+#textfield:focus{
+    border:2px solid #4361ee;
+}
+::placeholder{
+    color:#ced4da;
+}
+.header-2 button{
+    margin-bottom:10%;
+    padding:9% 141% 9% 40%;
+    text-align: center;
+    background-color: #3fa34d;
+    border:none;
+    color:#fafafa;
+    border-radius: 5px;
+    cursor:pointer;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header-2 button:hover{
+    background-color: #6ede8a;
+}
+.footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#1a4fd6;
+}
+.about{
+    width:50%;
+}
+.about h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6.0rem;
+}
+.about p{
+    font-weight: 700;
+}
+ul{
+    width:100%;
+}
+.links{
+    color:#0f4c5c;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+}
+.delete{
+    padding:20% 80%;
+    border-radius: 50%;
+    border:1px solid black;
+    cursor:pointer;
+    background-color: #fb5607;
+    color:white;
+    border:none;
+    outline:none;
+}
+.dcode{
+   color:#002657;
+   font-weight: bold;
+}
+.copy{
+    background-color:#bbd0ff;
+    padding:2% 4%;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.copy:hover{
+    background-color:#caf0f8 ;
+}
