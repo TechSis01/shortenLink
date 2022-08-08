@@ -83,6 +83,11 @@ nav img{
     outline:none;
     font-family: 'Noto Sans', sans-serif;
 
+
+}
+span{
+    color:red;
+    padding-bottom:5%;
 }
 #textfield:focus{
     border:2px solid #4361ee;
@@ -123,6 +128,13 @@ nav img{
 ul{
     width:100%;
 }
+.myLinks{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:160%;
+    flex-direction: column;
+}
 .links{
     color:#0f4c5c;
     list-style: none;
@@ -130,6 +142,7 @@ ul{
     justify-content: space-around;
     width:100%;
     align-items: center;
+    margin-bottom:10px;
 }
 .delete{
     padding:20% 80%;
@@ -153,4 +166,177 @@ ul{
 }
 .copy:hover{
     background-color:#caf0f8 ;
+}
+
+/*MEDIA QUERIES/////////////////////////////////*/
+@media (max-width:280px){
+    .right-links{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-1{
+        text-align: center;
+        margin-left:8%;
+        width:90%;
+    }
+    .header-1 button{
+        margin-right:10%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .header-2 button{
+        padding:9% 67% 9% 40%;
+    }
+    .header-2 input{
+        padding:9% 1% 9% 5%;
+    }
+    .myLinks{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:130%;
+        font-size: 1.2rem;
+    }
+    .about{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .right-links{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-1{
+        text-align: center;
+        margin-left:8%;
+        width:70%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .header-2 button{
+        padding:9% 67% 9% 40%;
+    }
+    .header-2 input{
+        padding:9% 1% 9% 5%;
+    }
+    .myLinks{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:130%;
+        font-size: 1.2rem;
+    }
+    .about{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 320px){
+    .right-links{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-1{
+        text-align: center;
+        margin-left:8%;
+        width:90%;
+    }
+    .header-1 button{
+        margin-right:10%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .header-2 button{
+        padding:9% 67% 9% 40%;
+    }
+    .header-2 input{
+        padding:9% 1% 9% 5%;
+    }
+    .myLinks{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:130%;
+        font-size: 1.2rem;
+    }
+    .about{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    .right-links{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-1{
+        text-align: center;
+        margin-left:8%;
+        width:70%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .header-2 button{
+        padding:9% 67% 9% 40%;
+    }
+    .header-2 input{
+        padding:9% 1% 9% 5%;
+    }
+    .myLinks{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:130%;
+        font-size: 1.2rem;
+    }
+    .about{
+        width:80%;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .right-links{
+        flex-direction: column;
+        margin-right:5%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header-1{
+        text-align: center;
+        margin-left:8%;
+        width:70%;
+    }
+    .header-1 button{
+       margin-right:10%;
+    }
+   .footer{
+    justify-content: space-evenly;
+   }
+    .header-2 button{
+        padding:9% 67% 9% 40%;
+    }
+    .header-2 input{
+        padding:9% 1% 9% 5%;
+    }
+    .myLinks{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:130%;
+        font-size: 1.2rem;
+    }
+    .about{
+        width:40%;
+        margin-right:5%;
+    }
 }
